@@ -1,5 +1,37 @@
 # GettingAndCleaningData Course Project Week 4
 
+This is the code along with descriptions for the data in the final project for Getting and Cleaning Data. 
+
+All variables are listed as follows in the final data when the run_analysis.R is run with the appropriate wd() set up. 
+
+ [1] "Activity"                        "tBodyAcc-std()-X"                "tBodyAcc-std()-Y"               
+ [4] "tBodyAcc-std()-Z"                "tGravityAcc-std()-X"             "tGravityAcc-std()-Y"            
+ [7] "tGravityAcc-std()-Z"             "tBodyAccJerk-std()-X"            "tBodyAccJerk-std()-Y"           
+[10] "tBodyAccJerk-std()-Z"            "tBodyGyro-std()-X"               "tBodyGyro-std()-Y"              
+[13] "tBodyGyro-std()-Z"               "tBodyGyroJerk-std()-X"           "tBodyGyroJerk-std()-Y"          
+[16] "tBodyGyroJerk-std()-Z"           "tBodyAccMag-std()"               "tGravityAccMag-std()"           
+[19] "tBodyAccJerkMag-std()"           "tBodyGyroMag-std()"              "tBodyGyroJerkMag-std()"         
+[22] "fBodyAcc-std()-X"                "fBodyAcc-std()-Y"                "fBodyAcc-std()-Z"               
+[25] "fBodyAccJerk-std()-X"            "fBodyAccJerk-std()-Y"            "fBodyAccJerk-std()-Z"           
+[28] "fBodyGyro-std()-X"               "fBodyGyro-std()-Y"               "fBodyGyro-std()-Z"              
+[31] "fBodyAccMag-std()"               "fBodyBodyAccJerkMag-std()"       "fBodyBodyGyroMag-std()"         
+[34] "fBodyBodyGyroJerkMag-std()"      "tBodyAcc-mean()-X"               "tBodyAcc-mean()-Y"              
+[37] "tBodyAcc-mean()-Z"               "tGravityAcc-mean()-X"            "tGravityAcc-mean()-Y"           
+[40] "tGravityAcc-mean()-Z"            "tBodyAccJerk-mean()-X"           "tBodyAccJerk-mean()-Y"          
+[43] "tBodyAccJerk-mean()-Z"           "tBodyGyro-mean()-X"              "tBodyGyro-mean()-Y"             
+[46] "tBodyGyro-mean()-Z"              "tBodyGyroJerk-mean()-X"          "tBodyGyroJerk-mean()-Y"         
+[49] "tBodyGyroJerk-mean()-Z"          "tBodyAccMag-mean()"              "tGravityAccMag-mean()"          
+[52] "tBodyAccJerkMag-mean()"          "tBodyGyroMag-mean()"             "tBodyGyroJerkMag-mean()"        
+[55] "fBodyAcc-mean()-X"               "fBodyAcc-mean()-Y"               "fBodyAcc-mean()-Z"              
+[58] "fBodyAcc-meanFreq()-X"           "fBodyAcc-meanFreq()-Y"           "fBodyAcc-meanFreq()-Z"          
+[61] "fBodyAccJerk-mean()-X"           "fBodyAccJerk-mean()-Y"           "fBodyAccJerk-mean()-Z"          
+[64] "fBodyAccJerk-meanFreq()-X"       "fBodyAccJerk-meanFreq()-Y"       "fBodyAccJerk-meanFreq()-Z"      
+[67] "fBodyGyro-mean()-X"              "fBodyGyro-mean()-Y"              "fBodyGyro-mean()-Z"             
+[70] "fBodyGyro-meanFreq()-X"          "fBodyGyro-meanFreq()-Y"          "fBodyGyro-meanFreq()-Z"         
+[73] "fBodyAccMag-mean()"              "fBodyAccMag-meanFreq()"          "fBodyBodyAccJerkMag-mean()"     
+[76] "fBodyBodyAccJerkMag-meanFreq()"  "fBodyBodyGyroMag-mean()"         "fBodyBodyGyroMag-meanFreq()"    
+[79] "fBodyBodyGyroJerkMag-mean()"     "fBodyBodyGyroJerkMag-meanFreq()"
+
 #run_analysis.R
 #installing packages for data manipulation
 library(dplyr)
